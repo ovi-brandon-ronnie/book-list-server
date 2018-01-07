@@ -1,0 +1,24 @@
+{
+  "name": "book-list-server",
+  "version": "1.0.0",
+  "description": "week 6 project for code 301(Ovi,Brandon,Ronnie)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovi-brandon-ronnie/book-list-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovi-brandon-ronnie/book-list-server/issues"
+  },
+  "homepage": "https://github.com/ovi-brandon-ronnie/book-list-server#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pg": "^7.4.1"
+  }
+}
