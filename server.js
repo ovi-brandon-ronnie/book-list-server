@@ -14,7 +14,7 @@ const app = express()
 
 app.use(cors())
 
-app.get('/test', (req, res) => res.send('test successful'))
+app.get('/test', (req, res) => res.send('Hello World'))
 
 app.get('/api/v1/books', (req, res) => {
 
