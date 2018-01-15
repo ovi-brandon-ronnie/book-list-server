@@ -2,7 +2,7 @@
 const express = require('express')
 const pg = require('pg')
 const cors = require('cors')
-const bodyParser = require('body-parser').urlencoded({extended: true});
+const bodyParser = require('body-parser').urlencoded({extended: true})
 
 const PORT = process.env.PORT || 3000
 const DATABASE_URL = 'postgres://localhost:5432/books_app'
